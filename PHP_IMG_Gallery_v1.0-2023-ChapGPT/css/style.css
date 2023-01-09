@@ -1,0 +1,51 @@
+/* Custom styles for photo gallery */
+.w-100 {
+  width: 100%;
+}
+
+.h-200 {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Remove padding between thumbnails */
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-span-6,
+.col-md-span-4,
+.col-lg-span-2 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Custom styles for footer */
+.copyright-button {
+  display: inline-block;
+}
+
+.copyright-text {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.H600 { font-weight: 700 !important; }
+.black69 { background-color: #000 !important; color: #fff !important; }
+
+@media (max-width: 767.98px) { 
+.font21 {font-size: 21px}
+.font17 {font-size: 17px}
+.img-fluid {
+
+    height: 200px !important;
+}
+
+ }
+
+.row > div {  padding: 0 !important }
+.container-fluid { padding: 0 !important }
+.padding20 { padding: 20px; }
+
